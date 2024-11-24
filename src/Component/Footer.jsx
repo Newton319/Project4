@@ -1,11 +1,11 @@
 function Footer() {
   return (
-    <div className="flex h-auto bg-cyan-600  ">
+    <div className="flex flex-col md:flex-row bg-cyan-600  ">
       <div className="flex-1 py-11 ">
         {" "}
         contact us to know more @www.project4.com help
       </div>
-      <div className="flex-1 py-12  ">
+      <div className="gap-4 py-12  ">
         {" "}
         <div>
           <input
